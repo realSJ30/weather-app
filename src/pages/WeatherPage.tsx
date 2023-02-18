@@ -32,7 +32,7 @@ const WeatherPage = () => {
           {weather && !isError ? <Table data={weather} /> : <div>No data</div>}
 
           <button
-            className="py-2 px-4 bg-blue-300 rounded-md mt-8 self-end"
+            className="py-2 px-4 bg-blue-300 rounded-md mt-8 self-end hover:bg-blue-400"
             onClick={handleBack}
           >
             Back

@@ -16,7 +16,7 @@ const HomePage = () => {
   return (
     <Container>
       <div className="flex flex-col w-96 justify-center items-center p-6">
-        <h1 className="hidden md:block my-2 font-bold">{user?.name}</h1>
+        <h1 className="hidden md:block my-2 font-bold text-4xl">{user?.name}</h1>
         <a
           href={`https://github.com/${user?.nickname}`}
           target="_blank"
@@ -36,7 +36,7 @@ const HomePage = () => {
           />
         </div>
         <button
-          className="py-2 px-4 bg-blue-300 rounded-md mt-8"
+          className="py-2 px-4 bg-blue-300 rounded-md mt-8 hover:bg-blue-400"
           onClick={handleDisplay}
         >
           Display Weather
