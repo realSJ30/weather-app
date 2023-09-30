@@ -9,5 +9,18 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script id = "NeonOAuth2Script">
+      (function(w,d,t,s,p,c,r,u){a=d.createElement(t);a.async=1;
+          a.src=u+s;es=d.getElementsByTagName(t);e=es[es.length-1];
+          e.parentNode.insertBefore(a,e);w[p]=c;w[r]=u;
+})(window,document,'script','/js/oauth/npsi.js','client_id',
+      'blQe6JdtyCVtyrQ8oBl75kPQ3MbHBhmW436-US-a95FA8lYMn6In7-e4Q_Chi9iZmygrzYOv8S09ZHb6Bdk4jA==','domain',
+      'https://elihuclub.app.neoncrm.com/np');
+
+setting = {	
+          "redirect_uri":"127.0.0.1:5173" //required
+}		
+</script>
+
   </body>
 </html>
